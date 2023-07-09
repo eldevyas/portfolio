@@ -5,8 +5,8 @@ My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](h
 
 </div>
 <br/>
-## Running Locally
 
+## Running Locally
 
 ```sh-session
 git clone https://github.com/eldevyas/portfolio.git
