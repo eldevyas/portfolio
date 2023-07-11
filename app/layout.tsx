@@ -3,6 +3,7 @@ import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
     title: {
@@ -67,6 +68,7 @@ export default function RootLayout({
             className={[inter.variable, calSans.variable].join(" ")}
         >
             <head>
+                {/* Beam Analytics */}
                 <Analytics />
             </head>
             <body
@@ -78,6 +80,9 @@ export default function RootLayout({
             >
                 {children}
             </body>
+
+            {/* Vercel Analytics */}
+            <VercelAnalytics />
         </html>
     );
 }
