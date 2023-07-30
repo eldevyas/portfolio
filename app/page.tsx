@@ -35,20 +35,20 @@ export default function Home() {
             <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
             <div className="my-16 text-center animate-fade-in">
                 <h2 className="text-sm text-zinc-500 ">
-                    Hi, my name is YASSINE CHETTOUCH,
+                    Hi, my name is Yassine Chettouch,
                     <br />
-                    I'm a software engineer and graphic designer.
+                    I'm a Software Developer and graphic designer.
                     <br />
                     I build websites and web applications with React, Next.js,
                     and Tailwind CSS.
                     <br />
-                    {/* I'm building serverless and open source solutions at{" "}
+                    I'm building freelance projects solutions at{" "}
                     <Link
                         target="_blank"
-                        href="https://vercel.com"
+                        href="https://orenzo.ma"
                         className="underline duration-500 hover:text-zinc-300"
                     >
-                        Vercel
+                        Orenzo
                     </Link>
                     <br />
                     and working on{" "}
@@ -59,7 +59,7 @@ export default function Home() {
                     >
                         Shopify
                     </Link>{" "}
-                    at night. */}
+                    at night.
                 </h2>
             </div>
         </div>
